@@ -14,8 +14,8 @@ spec:
     spec:
       containers:
         - name: demo-backend
-          image: demo-backend
-          imagePullPolicy: Never
+          image: ghcr.io/awungia112/demo-backend
+          imagePullPolicy: Always
           ports:
             - containerPort: 8080
 ---
